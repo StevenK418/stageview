@@ -3,26 +3,32 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    color: #232323;
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Audiowide', cursive; 
+}
+
+header{
+    position: relative;
+    width: 100%;
+    background-color: #B2B2B2;
+    box-shadow: 0px 2px 2px #232323;
+    height: 120px;
+    padding-top: 15px;
 }
 
 header h1{
-    font-family: 'Audiowide', cursive;
     margin-top: 15px;
+    margin-bottom: 0px;
 }
 
 .logo{
     margin: 10px;
-    width: 120px;
+    width: 110px;
     height: auto;
     float: left;
-}
-
-header{
-    background-color: #B2B2B2;
-    box-shadow: 0px 2px 2px #232323;
-    height: 150px;
-    padding-top: 15px;
 }
 
 header nav{
@@ -52,6 +58,7 @@ header nav li a{
     text-transform: uppercase;
     text-decoration: none;
 }
+
 header nav li:hover{
     background-color: #1f4756;
 }
@@ -63,9 +70,9 @@ header nav li:hover{
 .branding{
     width: 30%;
     float: left;
-    padding-top: 15px;
+    padding-top: 0px;
+    color: #232323;
 }
-
 
 footer{
     width: 100%;
@@ -74,20 +81,96 @@ footer{
     position: fixed;
     bottom: 0;
     text-align: center;
+    padding-top: 10px;
+    color: #232323;
 }
 
 main{
-    margin-bottom: 100px;
+    margin-bottom: 100px; 
 }
 
 .mainContent{
-    width: 100%;
     color: #B2B2B2;
     background-color: #232323;
     text-align: left;
-    padding: 20px;
     margin-bottom: 100px;
-    
+    float: left;
+    padding: 20px;
+    border-top: 1px solid #666666;
+}
+.mainContent img{
+    width: 30%;
+    float: right;
+    margin-right: 15px;
 }
 
+/* Contact form styles */
+.contact-form{
+    background-color: #ffffff;
+    color: #000000;
+    width: 50%; 
+    margin: 0;
+    margin-left: auto;
+    margin-right: 0;
+    padding: 20px;
+    float: left;
+    /* display: inline-block; */
+}
+  
+.three-column-content {
+    width: 100%;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 30%;
+    -moz-column-width: 30%;
+    column-width: 30%;
+    margin: 0;
+    padding: 0;
+}
 
+input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 220px;
+}
+
+input[type="radio"] {
+    width: 10px;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+}
+.required{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+#button{
+    margin-left: 138px;
+}
+#button, #reset{
+    margin-top: .5em;
+    width: 8em;
+    background-color: #1f4756;
+    border: 2px solid #000000;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.landing-content{
+    margin-top: 450px;
+}
+
+aside{
+    width: 30%;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+aside iframe{
+    width: 100%;
+    height: 450px;
+}

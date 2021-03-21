@@ -1,22 +1,18 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Stageview | Connecting artists</title>
+        <link rel="shortcut icon" href="images/Branding/LogoConcept1.png" />
         <meta name="description" content="">
+        <meta name="keywords" content="Band Photography, Stage Photography, live music, bands, concerts">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="//cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.js"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="styles/styles.css">
-        <link rel="stylesheet" href="javascript/style.css">
+        <link rel="stylesheet" href="javascript/custom_slider/slider.css">
         <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-        <script src="javascript/simplefullwidthslider.js"></script>
     </head>
     <body>
         <header>
@@ -25,7 +21,6 @@
                 <h1>STAGEVIEW</h1>
                 <h3>Connecting artists!</h3>
             </section>
-            
             <nav>
                 <ul>
                     <li id="active"><a href="index.html">Home</a></li>
@@ -38,26 +33,21 @@
             </nav>
         </header>
         <main>
-            <section class="slider clearfix" data-autoplay="0" data-items="1" data-easing="linear" data-duration="750" data-height="680">
-                <section class="single_slide" style="background-image: url('https://unsplash.it/1260/520?image=553'); ;">
-                    <section class="slider_text">Slide 1 | Rock out with your crocs out!</section>
-                </section>
-                <section class="single_slide active" style="background-image: url('https://unsplash.it/1260/520?image=551');">
-                    <section class="slider_text"> </section>
-                </section>
-                <section class=" single_slide" style="background-image: url('https://unsplash.it/1260/520?image=549');">
-                    <section class="slider_text"> </section>
-                </section>
-                <section class=" single_slide" style="background-image: url('https://unsplash.it/1260/520?image=539');">
-                    <section class="slider_text"> </section>
-                </section>
-                <section class=" single_slide" style="background-image: url('https://unsplash.it/1260/520?image=532');">
-                    <section class="slider_text"> </section>
-                </section>
+            <!-- Slider HTML -->
+            <section class="slider">
+               <section class="slide-viewer">
+                    <section class="slide-group">
+                        <section class="slide slide-1"><img src="images/slider/corey-oconnell-SWgjQ--42iQ-unsplash.jpg" alt=""></section>
+                        <section class="slide slide-2"><img src="images/slider/sam-moqadam-bu_7B-G1eWg-unsplash.jpg" alt=""></section>
+                        <section class="slide slide-3"><img src="images/slider/sam-moqadam-xoEM1msqqvg-unsplash.jpg" alt=""></section>
+                    </section>
+               </section>
+               <section class="slide-buttons"></section>
             </section>
-            <article>
-            <section class="mainContent">
-                   <p>
+            <article class="landing-content">
+                <section class="three-column-content">
+                    <h3>Column1</h3>
+                    <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
                         incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
@@ -68,17 +58,60 @@
                         incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
                         incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
-                   </p> 
-            </section>
-        </article>
+                    </p> 
+                    <h3>Column2</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
+                        incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
+                        incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
+                        incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
+                        incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
+                        incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
+                    </p> 
+                    <h3>Column3</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
+                        incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
+                        incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
+                        incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
+                        incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
+                        incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
+                    </p> 
+                </section>
+            </article>
+            <article class="mainContent">
+                <h2>Latest News</h2>
+                <section>
+                    <img src="images/slider/sam-moqadam-xoEM1msqqvg-unsplash.jpg"  alt="">
+                    <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
+                            incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
+                            incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
+                            incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
+                            incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
+                            incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
+                    </p> 
+                </section>
+            </article>
         </main>
         <footer>
             <section>
+                <em>This is a college project completed as part of an assignment.</em>
                 <p>&copy; 2021. All Rights Reserved.</p>
             </section>
         </footer>
-        <script src="velocity.min.js"></script>
-        <script src="../gallry.js"></script>
-        <script src="script.js"></script>
+        <script src="javascript/custom_slider/slider.js"></script>
     </body>
 </html>
