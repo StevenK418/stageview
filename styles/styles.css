@@ -1,16 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     background-color: #232323;
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
-    overflow: hidden;
-    overflow-y: scroll;
 }
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'Audiowide', cursive; 
-    line-height: normal;
 }
 
 header{
@@ -20,27 +21,27 @@ header{
     box-shadow: 0px 2px 2px #232323;
     padding: 10px 10px;
     overflow: hidden;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.8);
-    z-index: 10;
 }
 
 header h1{
     margin-top: 15px;
     margin-bottom: 0px;
     font-size: 2em;
-    display: inline-block;
 }
 
+
+
 header a {
-    float: left; 
+    float: left;
     color: black;
     text-align: center;
     text-decoration: none;
     font-size: 1em; 
     line-height: 25px;
     display: inline-block;
-}
+  }
   
+
 .header-right{
     float: right;
     width: 70%;
@@ -90,42 +91,17 @@ header nav li:hover{
     margin: 10px;
     padding-top: 0px;
     color: #232323;
-
 }
 
 footer{
     width: 100%;
     height: auto;
     background-color: #B2B2B2;
-    position: relative; 
-    bottom: 0; 
+    position: fixed;
+    bottom: 0;
     text-align: center;
     padding-top: 10px;
     color: #232323;
-    overflow: hidden;
-}
-
-footer nav ul 
-{
-    list-style-type: none;  
-    text-decoration: none;   
-    text-align: center; 
-}
-
-footer nav li{
-    display: inline-block; 
-    padding: 5px 15px 5px 15px;
-    margin: 5px;
-}
-
-footer nav li a{
-    color: #ffffff;
-    text-transform: uppercase;
-    text-decoration: underline;
-}
-
-footer nav li:hover{
-    background-color: #1f4756;
 }
 
 main{
@@ -133,10 +109,10 @@ main{
 }
 
 .mainContent{
-    color: #ffffff;
-    background-color: rgba(0, 0, 0, 0.6);
+    color: #B2B2B2;
+    background-color: #232323;
     text-align: left;
-    margin-bottom: 0px;
+    margin-bottom: 100px;
     float: left;
     padding: 20px;
     border-top: 1px solid #666666;
@@ -157,14 +133,7 @@ main{
     margin-right: 0;
     padding: 20px;
     float: left;
-}
-
-.contact-form input{
-    display: inline-block;
-}
-
-.contact-form input[type=textarea]{
-    width: 85%;
+    /* display: inline-block; */
 }
   
 .three-column-content {
@@ -176,8 +145,7 @@ main{
     -moz-column-width: 30%;
     column-width: 30%;
     margin: 0;
-    padding: 30px 0px 0px 0px;
-    text-align: center;
+    padding: 0;
 }
 
 input {
@@ -210,61 +178,20 @@ input[type="checkbox"] {
     text-transform: uppercase;
 }
 
+.landing-content{
+    margin-top: 450px;
+}
+
 aside{
     width: 30%;
-    height: 100%;
-    float: left;
+    float: right;
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
 aside iframe{
     width: 100%;
     height: 450px;
-    float: left;
-    margin-left: 40%;
-}
-
-.icon{
-    filter: invert(60%);
-    width: 20%;
-    height: auto;
-}
-
-/* Table formatting */
-.user-info{
-    max-width: 85%;
-    margin: 0 auto;
-    border: 1px double #ffffff;
-    background-color: #ffffff;
-    color: #232323;
-    text-transform: uppercase;
-    padding: 15px;
-}
-
-.user-info th{
-    background-color: #1f4756;
-    color: #ffffff;
-}
-
-td{
-    border: 1px solid #232323;
-    background-color: #B2B2B2;
-    color: #232323;
-    padding: 5px;
-    font-weight: bold;
-}
-
-#user-data{
-    width: 100%;
-    height: 400px;
-    float: left;
-    background-color: rgba(0, 0, 0, 0.6);
-}
-
-#user-data h2{
-    text-align: center;
 }
 
 
@@ -321,19 +248,5 @@ td{
     header{
         padding-bottom: 0;
     }
-
-    .landing-content{
-        margin-top: 660px;
-    }
-
-    .contact-form{
-        width: 100%;
-        overflow: hidden;
-    }
-    
-    .contact-form input{
-        max-width: 85%;
-    }
+ 
   }
-
-  
