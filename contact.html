@@ -17,7 +17,7 @@
     <body>
         <header>
             <section class="branding">
-                <a href="index.html"><img src="images/Branding/LogoConcept_Dark.png" alt="" class="logo"></a>
+                <a href="index.html"><img src="images/Branding/LogoConcept_Dark.png" alt="Website logo" class="logo"></a>
                 <h1>STAGEVIEW</h1>
                 <h3>Connecting artists!</h3>
             </section>
@@ -51,6 +51,14 @@
                         <input type="checkbox" class="marginl" id="hear" name="Add" value="Add">Others<br>
                     </fieldset>
                     <br>
+                    <label for="contact-reason">Reason for contacting: </label>
+                    <select name="contact-reason" id="contact-reason">
+                        <option value="Business-Inquiry">Business Inquiry</option>
+                        <option value="website-information">Website information</option>
+                        <option value="billing">Billing</option>
+                        <option value="general-inquiry">General Inquiry</option>
+                    </select>
+                    <br>
                     <label for="message">Query  :   </label>
                     <textarea name="" id="" cols="40" rows=6 data-maxlength="200"></textarea><br>
                     <input type="submit" name="submit" id="button" value="submit">
@@ -65,22 +73,31 @@
             <article>
                 <section class="mainContent">
                     <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
-                            incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
-                            incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
-                            incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
-                            incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
-                            incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
+                        incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
+                        incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
+                        incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
+                        incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
+                        incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
                     </p> 
                 </section>
             </article>
-           
         </main>
         <footer>
+            <nav class="nav-footer">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="photographers.html">Photographers</a></li>
+                    <li><a href="bands.html">Bands</a></li>
+                    <li id="active"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
             <section>
                 <em>This is a college project completed as part of an assignment.</em>
                 <p>&copy; 2021. All Rights Reserved.</p>

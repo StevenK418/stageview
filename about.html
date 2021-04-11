@@ -10,14 +10,35 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" href="styles/styles.css">
-        <link rel="stylesheet" href="javascript/custom_slider/slider.css">
         <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="javascript/photo_viewer/photo-viewer.css">
+        <style>
+            body{
+                background-image: url('images/slider/hector-bermudez-0WSt2Wpmz8E-unsplash.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+
+            #website-video-promo{
+                float: right; 
+                width: 40%;
+                height: 480px;
+                margin: 15px;
+                display: block
+            }
+
+            .main-content p{
+                float: left;
+                width: 50%;
+            }
+        </style>
     </head>
     <body>
         <header>
             <section class="branding">
-                <a href="index.html"><img src="images/Branding/LogoConcept_Dark.png" alt="" class="logo"></a>
+                <a href="index.html"><img src="images/Branding/LogoConcept_Dark.png" alt="Website logo" class="logo"></a>
                 <h1>STAGEVIEW</h1>
                 <h3>Connecting artists!</h3>
             </section>
@@ -35,21 +56,44 @@
         <main>
             <article class="mainContent">
                 <h2>About Us</h2>
-                <section>
-                    <img src="images/slider/corey-oconnell-SWgjQ--42iQ-unsplash.jpg"  alt="">
-                    <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
-                            incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
-                            incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
-                            incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
-                            incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
-                            incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
-                    </p> 
-                </section>
+                <iframe src="https://www.youtube.com/embed/FEW0pkwn3SM" title="YouTube video player" id="website-video-promo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!-- <img src="images/slider/corey-oconnell-SWgjQ--42iQ-unsplash.jpg"  alt=""> -->
+                <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
+                        incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
+                        incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
+                        incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
+                        incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea minus rem assumenda alias corrupti praesentium 
+                        incidunt omnis dolore aperiam, voluptatem iure pariatur esse ipsam vel consequatur laborum. Accusamus, omnis.
+                </p> 
+            </section>
+            </article>
+            <article id="user-data">
+                <h2>Our Current Users</h2>
+                <table class="user-info" style="width:100%;">
+                    <tr>
+                      <th>Country</th>
+                      <th>City</th>
+                      <th>Number of Bands</th>
+                      <th>Number of Photographers</th>
+                    </tr>
+                    <tr>
+                      <td>Ireland</td>
+                      <td>Dublin</td>
+                      <td>50</td>
+                      <td>23</td>
+                    </tr>
+                    <tr>
+                      <td>France</td>
+                      <td>Paris</td>
+                      <td>94</td>
+                      <td>34</td>
+                    </tr>
+                  </table> 
             </article>
         </main>
         <footer>
@@ -58,6 +102,6 @@
                 <p>&copy; 2021. All Rights Reserved.</p>
             </section>
         </footer>
-        <script src="javascript/custom_slider/slider.js"></script>
+        <script src="javascript/photo_viewer/photoviewer.js"></script>
     </body>
 </html>

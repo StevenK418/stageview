@@ -1,14 +1,15 @@
-slide-viewer{
-    position: relative;
+.slide-viewer{
+    position: relative; 
     overflow: hidden;
-    height:300px;
-    bottom: 200px;
-}
+    height: 700px;
+    z-index: -1;
+}  
 
 .slide-group{
     width: 100%;
     height: 100%;
     position: relative;
+    
 }
 
 .slide{
@@ -16,12 +17,7 @@ slide-viewer{
     height: 100%;
     display: none;
     position: absolute;
-}
-
-.slide img
-{
-    width: 100%; 
-    height: 450px;
+    overflow: hidden;
 }
 
 .slide:first-child{
@@ -29,14 +25,18 @@ slide-viewer{
 }
 
 .slide-buttons{
-    position: absolute;
     text-align: center;
-    margin: 0;
-    padding: 0;
 }
+
 .slide-buttons button{
-    background-color: rgba(0,0,0,0.0);
+    background-color: rgba(0.0,0,0,0.0);
+    opacity: 0.6;
     color: #ffffff;
     font-size: 3em;
     border: none;
+} 
+
+.slide img{
+    width: 100%;
+    height: 100%;
 }
