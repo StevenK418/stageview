@@ -13,6 +13,10 @@ h1, h2, h3, h4, h5, h6{
     line-height: normal;
 }
 
+hr{
+    color: #1f4756;
+}
+
 header{
     width: 100%;
     height: auto;
@@ -103,6 +107,7 @@ footer{
     padding-top: 10px;
     color: #232323;
     overflow: hidden;
+
 }
 
 footer nav ul 
@@ -146,17 +151,184 @@ main{
     float: right;
     margin-right: 15px;
 }
+.mainContent p{
+    float: left;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+
+.row{
+    padding: 30px 0px 30px 0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Alternating Section Code */
+.section-left{
+    background: #ffffff;
+    color: #232323;
+    text-align: left;
+    display: block;
+    padding: 0px; 
+    float: left;
+    border-left: 5px solid #1f4756;
+    border-bottom: 5px solid #1f4756;
+    width: 100%;
+}
+.section-left p,h2{
+    width: 50%;
+    float: left;
+    display: block;
+}
+
+.section-left h2{
+   
+   -webkit-text-stroke-width: 0.7px;
+   -webkit-text-stroke-color:#ffffff;
+}
+.section-left img{
+    width: 30%;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    display: block;
+}
+.section-left a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.section-left a:hover{
+    color:#1f4756;
+    text-decoration: none;
+    text-shadow: .2px .2px 1px #000000;
+}
+.section-left a:visited{
+    color:#1f4756;
+    text-decoration: none;
+}
+.section-left .social-icon
+{
+    width: 18px;
+    height: 18px;
+    float: left;
+}
+
+.section-left .text-content a{
+    
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    float: left;
+    width: 200px;
+    height: auto;
+    border: none;
+}
+
+.section-right{
+    background: #232323;
+    color: #ffffff;
+    text-align: left;
+    display: block; 
+    padding: 0px; 
+    float: left;
+    border-right: 5px solid #1f4756;
+    border-bottom: 1px solid #1f4756;
+    width: 100%;
+}
+.section-right p,h2{
+    width: 50%;
+    float: left;
+    display: block;
+}
+
+.section-right h2{
+   
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color:#ffffff;
+}
+.section-right img{
+    width: 30%;
+    height: auto;
+    float: right;
+    margin-right: 10px;
+    display: block;
+}
+.section-right a{
+    color: #232323;
+    text-decoration: none;
+}
+.section-right a:hover{
+    color:#1f4756;
+    text-decoration: none;
+    text-shadow: .5px .5px 1px #000000;
+}
+.section-right a:visited{
+    color:#1f4756;
+    text-decoration: none;
+}
+.section-right .social-icon
+{
+    width: 18px;
+    height: 18px;
+    float: left;
+    filter: invert();
+}
+
+.section-right .text-content a {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    float: left;
+    width: 200px;
+    height: auto;
+    border: none;
+    color: #ffffff;
+    margin-left: 15px;
+}
+
+.social-links{
+    text-decoration: none;
+    float: left;
+}
+
+.social-links li{
+    display: inline-block;
+    margin-top: 10px;
+
+}
+
+.social-media-panel{
+    padding: 0;
+    margin: 0 auto;
+    float: left;
+}
+
+.text-content{
+    margin-left: 40px;
+}
 
 /* Contact form styles */
 .contact-form{
     background-color: #ffffff;
     color: #000000;
     width: 50%; 
+    height: 580px;
     margin: 0;
     margin-left: auto;
     margin-right: 0;
     padding: 20px;
     float: left;
+    border: 5px inset #232323;
 }
 
 .contact-form input{
@@ -167,19 +339,6 @@ main{
     width: 85%;
 }
   
-.three-column-content {
-    width: 100%;
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-    -webkit-column-width: 30%;
-    -moz-column-width: 30%;
-    column-width: 30%;
-    margin: 0;
-    padding: 30px 0px 0px 0px;
-    text-align: center;
-}
-
 input {
     margin-left: 1em;
     margin-bottom: .5em;
@@ -267,6 +426,16 @@ td{
     text-align: center;
 }
 
+.faq-footnote{
+
+}
+
+.faq-footnote a{
+    color: #1f4756;
+    text-decoration: underline;
+}
+
+
 
 /* Media Queries for added responsive layout */
 @media screen and (max-width: 600px) {
@@ -278,7 +447,6 @@ td{
     }
 
     .logo{
-       
        margin-left: 38%;
        display: block; 
     }
@@ -322,10 +490,6 @@ td{
         padding-bottom: 0;
     }
 
-    .landing-content{
-        margin-top: 660px;
-    }
-
     .contact-form{
         width: 100%;
         overflow: hidden;
@@ -334,6 +498,25 @@ td{
     .contact-form input{
         max-width: 85%;
     }
-  }
+
+    aside{
+        width: 100%;
+        height: 100%;
+        float: left;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+    aside iframe{
+        width: 100%;
+        height: 480px;
+        margin: 0;
+        border: none;
+    }
+
+    .column {
+        width: 100%;
+    }
+}
 
   

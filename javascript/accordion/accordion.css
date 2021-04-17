@@ -1,0 +1,32 @@
+.accordion{
+    text-align: left;
+}
+
+.accordion li{
+    list-style-type: none;
+}
+
+.accordion-control{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 15px;
+    width: 96%;
+    text-align: left !important;
+}
+
+.accordion-panel{
+    font-size: .9em;
+    display: none;
+    width: 90%;
+    text-align: left;
+    margin: 0 auto;
+    background-color: #ffffff;
+    color: #232323;
+    padding: 15px;
+}
+
+.accordion-panel li{
+    list-style: square;
+}
+
+
