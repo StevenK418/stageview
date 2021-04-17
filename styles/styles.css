@@ -13,6 +13,10 @@ h1, h2, h3, h4, h5, h6{
     line-height: normal;
 }
 
+q{
+    font-size: 1.2em;
+}
+
 hr{
     color: #1f4756;
 }
@@ -153,6 +157,11 @@ main{
 }
 .mainContent p{
     float: left;
+    margin-left: 5px;
+}
+
+.mainContent q{
+    float: left;
 }
 
 .column {
@@ -234,6 +243,7 @@ main{
     border: none;
 }
 
+
 .section-right{
     background: #232323;
     color: #ffffff;
@@ -296,6 +306,10 @@ main{
     margin-left: 15px;
 }
 
+.location-display iframe{
+   display: none;
+}
+
 .social-links{
     text-decoration: none;
     float: left;
@@ -316,6 +330,7 @@ main{
 .text-content{
     margin-left: 40px;
 }
+
 
 /* Contact form styles */
 .contact-form{
@@ -517,6 +532,11 @@ td{
     .column {
         width: 100%;
     }
+
+    .location-display iframe{
+        display: block;
+        margin-bottom: 25px;
+     }
 }
 
   
