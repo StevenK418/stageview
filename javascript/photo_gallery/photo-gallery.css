@@ -19,7 +19,7 @@
 @media screen and (max-width: 600px) {
     .jLastic{
         width: 60% !important;
-        /* position:relative; */
+        position:relative;
         margin: auto;
         overflow:visible;
     }

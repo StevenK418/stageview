@@ -194,17 +194,18 @@ main{
     border-bottom: 5px solid #1f4756;
     width: 100%;
 }
-.section-left p,h2{
-    width: 50%;
+
+ .section-left p{
+    width: 70%;
     float: left;
     display: block;
-}
+} 
 
 .section-left h2{
-   
    -webkit-text-stroke-width: 0.7px;
    -webkit-text-stroke-color:#ffffff;
-}
+} 
+
 .section-left img{
     width: 30%;
     height: auto;
@@ -243,7 +244,6 @@ main{
     border: none;
 }
 
-
 .section-right{
     background: #232323;
     color: #ffffff;
@@ -255,17 +255,17 @@ main{
     border-bottom: 1px solid #1f4756;
     width: 100%;
 }
-.section-right p,h2{
-    width: 50%;
+ .section-right p{
+    width: 60%;
     float: left;
     display: block;
 }
 
 .section-right h2{
-   
     -webkit-text-stroke-width: 0.7px;
     -webkit-text-stroke-color:#ffffff;
 }
+
 .section-right img{
     width: 30%;
     height: auto;
@@ -432,13 +432,10 @@ td{
 
 #user-data{
     width: 100%;
-    height: 400px;
-    float: left;
-    background-color: rgba(0, 0, 0, 0.6);
-}
-
-#user-data h2{
     text-align: center;
+    height: 400px;
+    float: left; 
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .faq-footnote{
@@ -449,7 +446,6 @@ td{
     color: #1f4756;
     text-decoration: underline;
 }
-
 
 
 /* Media Queries for added responsive layout */
