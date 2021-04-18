@@ -446,6 +446,10 @@ td{
     text-decoration: underline;
 }
 
+.faq-content h2{
+    margin-left: 15px;
+}
+
 
 /* Media Queries for added responsive layout */
 @media screen and (max-width: 600px) {
