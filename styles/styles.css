@@ -446,10 +446,6 @@ td{
     text-decoration: underline;
 }
 
-.faq-content h2{
-    margin-left: 15px;
-}
-
 
 /* Media Queries for added responsive layout */
 @media screen and (max-width: 600px) {
@@ -475,16 +471,9 @@ td{
         text-align: left;
         margin-left: 0;
     }
-
-    .header-right {
-        width: 100%;
-        float: left;
-        margin: 0;
-    }
     
     .header-right {
         width: 100%;
-        float: none;
         display: block;
     }
 
