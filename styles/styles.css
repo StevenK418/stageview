@@ -98,7 +98,10 @@ header nav li:hover{
     margin: 10px;
     padding-top: 0px;
     color: #232323;
+}
 
+.branding h2{
+    font-size: 1em;
 }
 
 footer{
@@ -436,10 +439,6 @@ td{
     height: 400px;
     float: left; 
     background-color: rgba(0, 0, 0, 0.6);
-}
-
-.faq-footnote{
-
 }
 
 .faq-footnote a{

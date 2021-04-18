@@ -2,10 +2,6 @@
     text-align: left;
 }
 
-.accordion li{
-    list-style-type: none;
-}
-
 .accordion-control{
     font-size: 1em;
     font-weight: bold;
